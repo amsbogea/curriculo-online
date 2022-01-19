@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(186, 203, 209);
+    background-color: rgb(251, 253, 253);
+}
+
+header {
+    color: rgb(165, 185, 51);
 }
 
 h1 {
@@ -12,4 +16,20 @@ h2 {
 
 h3 {
     font-family: "Audiowide", sans-serif;
+}
+
+.dados-pessoais {
+    color: chocolate;
+}
+
+.habilidades-infra {
+    color: rgb(30, 226, 56);
+}
+
+.habilidades-dev {
+    color: darkgreen;
+}
+
+.soft-skills {
+    color: rgb(37, 165, 75);
 }
