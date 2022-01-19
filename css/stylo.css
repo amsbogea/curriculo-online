@@ -18,8 +18,12 @@ h3 {
     font-family: "Audiowide", sans-serif;
 }
 
+p {
+    color: rgb(2, 50, 122) ;
+}
+
 .dados-pessoais {
-    color: chocolate;
+    color: chocolate !important;
 }
 
 .habilidades-infra {
@@ -33,3 +37,4 @@ h3 {
 .soft-skills {
     color: rgb(37, 165, 75);
 }
+
