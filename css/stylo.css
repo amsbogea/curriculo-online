@@ -6,9 +6,7 @@ body {
 
 .menu_principal {
         list-style: none;
-        background-color: #7FFFD4;
-       
-        
+        background-color: #7FFFD4;        
 }
 
 .menu_principal a {
@@ -36,7 +34,7 @@ body {
 
 .aside_principal{
     grid-area: aside;
-    background-color: tomato;
+    background-color: rgb(6, 17, 110);
 }
 
 .main_principal{
@@ -64,22 +62,37 @@ p {
     color: rgb(2, 50, 122) ;
     text-align: justify;
     line-height: 25px;
-    lin
+}
+
+.div_principal {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.div_principal a{
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+}
+
+.div_principal a:hover{
+    background-color: rgb(93, 92, 170);
+    cursor: pointer;
 }
 
 .dados-pessoais {
-    color: chocolate !important;
+    color: rgb(255, 255, 255); !important;
 }
 
 .habilidades-infra {
-    color: rgb(30, 226, 56);
+    color: rgb(255, 255, 255);
 }
 
 .habilidades-dev {
-    color: darkgreen;
+    color: rgb(255, 255, 255);
 }
 
 .soft-skills {
-    color: rgb(37, 165, 75);
+    color: rgb(255, 255, 255);
 }
 
