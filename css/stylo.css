@@ -1,5 +1,47 @@
 body {
     background-color: rgb(251, 253, 253);
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.menu_principal {
+        list-style: none;
+        background-color: #7FFFD4;
+       
+        
+}
+
+.menu_principal a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.menu_principal li {
+    display: inline-block;
+    margin-right: 20px;
+    height: 100%;
+    padding: 13px;
+    background-color: rgb(138, 149, 185);
+}
+
+.menu_principal li:hover{
+    background-color: rgb(218, 206, 209);
+    cursor: pointer;
+}
+
+.div_principal {
+    display: grid ;
+    grid-template-areas: "aside main";
+}
+
+.aside_principal{
+    grid-area: aside;
+    background-color: tomato;
+}
+
+.main_principal{
+    grid-area: main;
+    background-color: turquoise;
 }
 
 header {
@@ -20,6 +62,9 @@ h3 {
 
 p {
     color: rgb(2, 50, 122) ;
+    text-align: justify;
+    line-height: 25px;
+    lin
 }
 
 .dados-pessoais {
