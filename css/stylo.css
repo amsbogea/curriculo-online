@@ -1,107 +1,132 @@
+/*seletor universal inicio*/
+* {
+    /*margin: 0;
+    padding: 0;
+    font-size: 13px;*/
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+
+/*seletor universal fim*/
+
+/*************************/
+/*seletor de tags inicio*/
+
+
 body {
-    background-color: rgb(251, 253, 253);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.menu_principal {
-        list-style: none;
-        background-color: #7FFFD4;        
-}
-
-.menu_principal a {
-    text-decoration: none;
-    font-style: normal;
-}
-
-.menu_principal li {
-    display: inline-block;
-    margin-right: 20px;
-    height: 100%;
-    padding: 13px;
-    background-color: rgb(138, 149, 185);
-}
-
-.menu_principal li:hover{
-    background-color: rgb(218, 206, 209);
-    cursor: pointer;
-}
-
-.div_principal {
-    display: grid ;
-    grid-template-areas: "aside main";
-}
-
-.aside_principal{
-    grid-area: aside;
-    background-color: rgb(6, 17, 110);
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.main_principal{
-    grid-area: main;
-    background-color: turquoise;
-    padding-right: 20px;
-    padding-left: 20px;
+    background-image: url("../img/17828.jpg");
+    margin: 100px;
 }
 
 header {
     color: rgb(165, 185, 51);
 }
 
-h1 {
-    font-family: "Audiowide", sans-serif;
-    text-align: center;
 
-}
-
-h2, h3 {
-    font-family: "Audiowide", sans-serif;
+h1, h2, h3 {
     text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
 }
 
 
 p {
-    color: rgb(2, 50, 122) ;
+    color: rgb(0, 0, 0) ;
     text-align: justify;
     line-height: 25px;
 }
+/*seletor de tags fim*/
+/***************************/
+/*seletor de classes inicio*/
+.menu_principal {
+    list-style: none;
+    background-color: #1c7a5b;   
+    text-transform: uppercase;     
+}
+
+.menu_principal a {
+text-decoration: none;
+font-style: normal;
+color: rgb(0, 0, 0);
+
+}
+
+.menu_principal li {
+display: inline-block;
+margin-right: 20px;
+height: 100%;
+padding: 13px;
+background-color: #1c7a5b;
+}
+
+.menu_principal li:hover{
+background-color: rgb(255, 255, 255);
+cursor: pointer;
+color: black;
+}
 
 .div_principal {
-    text-align: justify;
-    line-height: 25px;
+display: grid ;
+grid-template-areas: "aside main";
+text-align: justify;
+line-height: 25px;
 }
 
 .div_principal a{
     text-decoration: none;
     font-style: normal;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .div_principal a:hover{
-    background-color: rgb(208, 207, 223);
+    background-color: rgb(255, 255, 255);
+    color: black;
     cursor: pointer;
 }
 
+
+.aside_principal{
+grid-area: aside;
+background-color: #1c7a5e;   
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.main_principal {
+grid-area: main;
+background-color: #1c7a5e;
+padding-right: 20px;
+padding-left: 20px;
+}
+
 .dados-pessoais {
-    color: rgb(255, 255, 255); !important;
+    color:rgb(0, 0, 0);
 }
 
 .habilidades-infra {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .habilidades-dev {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .soft-skills {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .ul-habilidades {
     margin-left: -33px;
 }
+/*seletor de classes fim*/
+
+/*seletor de ID inicio*/
+/*seletor de ID fim*/
+
+
+
+
+
+
