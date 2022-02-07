@@ -15,7 +15,7 @@
 
 
 body {
-    background-image: url("../img/image-2-1024x595.png");
+    background-image: url("../img/17828.jpg");
     background-size: 200px 200px ;
     margin: 177px;
 }
@@ -82,6 +82,7 @@ display: grid ;
 grid-template-areas: "aside main";
 text-align: justify;
 line-height: 25px;
+border: 5px outset red;
 }
 
 .div_principal a{
@@ -102,6 +103,9 @@ grid-area: aside;
 background-color: #1c7a5e;   
 padding-left: 20px;
 padding-right: 20px;
+border: 5px outset blue;
+width: 70%;
+float: left;
 
 }
 
@@ -110,10 +114,14 @@ grid-area: main;
 background-color: #1c7a5e;
 padding-right: 20px;
 padding-left: 20px;
+border: 5px outset yellow;
+width: 89.5%;
+float: left;
 }
 
 .dados-pessoais {
     color:rgb(0, 0, 0);
+    text-align: left;
 }
 
 .habilidades-infra {
