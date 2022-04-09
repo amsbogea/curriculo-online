@@ -1,11 +1,9 @@
 /*seletor universal inicio*/
 * {
-    /*margin: 0;
+    margin: 0;
     padding: 0;
-    font-size: 13px;*/
+    /*font-size: 13px;*/
     font-family: 'Nunito', sans-serif;
-    
-    
 }
 
 /*seletor universal fim*/
@@ -15,13 +13,16 @@
 
 
 body {
-    background-image: url("../img/17828.jpg");
-    background-size: 200px 200px ;
-    margin: 177px;
+    background-color: rgb(255, 255, 255);
 }
 
 header {
     color: rgb(165, 185, 51);
+    margin-bottom: 100px;
+}
+
+nav {
+    
 }
 
 
@@ -29,15 +30,17 @@ h1, h2, h3 {
     text-align: center;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
+    margin: 50px;
 }
 
 h1 {
     color: black;
+    margin-bottom: 100px;
+    font-size: 50px;
 }
 
 span {
-    background-color: #1c7a5e;
-    
+    background-color: #1c7a5e;    
 }
     
 
@@ -57,33 +60,33 @@ p {
 }
 
 .menu_principal a {
-text-decoration: none;
-font-style: normal;
-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(0, 0, 0);
 
 }
 
 .menu_principal li {
-display: inline-block;
-margin-right: 20px;
-height: 100%;
-padding: 13px;
-background-color: #1c7a5b;
+    display: inline-block;
+    margin-right: 20px;
+    height: 100%;
+    padding: 13px;
+    background-color: #1c7a5b;
 }
 
 .menu_principal li:hover{
-background-color: rgb(255, 255, 255);
-cursor: pointer;
-color: black;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
 }
 
 .div_principal {
-display: grid ;
-grid-template-areas: "aside main";
-text-align: justify;
-line-height: 25px;
-border: 5px outset red;
-}
+    display: grid ;
+    grid-template-areas: "aside main";
+    text-align: justify;
+    line-height: 25px;
+    border: 5px outset red;
+    }
 
 .div_principal a{
     text-decoration: none;
@@ -99,24 +102,23 @@ border: 5px outset red;
 
 
 .aside_principal{
-grid-area: aside;
-background-color: #1c7a5e;   
-padding-left: 20px;
-padding-right: 20px;
-border: 5px outset blue;
-width: 70%;
-float: left;
-
+    grid-area: aside;
+    background-color: #1c7a5e;   
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px outset blue;
+    width: 70%;
+    float: left;
 }
 
 .main_principal {
-grid-area: main;
-background-color: #1c7a5e;
-padding-right: 20px;
-padding-left: 20px;
-border: 5px outset yellow;
-width: 89.5%;
-float: left;
+    grid-area: main;
+    background-color: #1c7a5e;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 5px outset yellow;
+    width: 89.5%;
+    float: left;
 }
 
 .dados-pessoais {
@@ -138,6 +140,19 @@ float: left;
 
 .ul-habilidades {
     margin-left: -33px;
+}
+
+.footer {
+    background-color: grey;
+    padding: 35px 20px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer1 {
+    
 }
 /*seletor de classes fim*/
 
